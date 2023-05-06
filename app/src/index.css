@@ -1,5 +1,6 @@
 body {
-  background-color: #eee;
+  background-color: #222;
+  color: #eee;
   display: flex;
   font-family: 'Muli', sans-serif;
 }
@@ -8,32 +9,34 @@ body {
   margin: 20px;
   display: inline-block;
   padding: 40px;
-  border: 1px solid #ddd;
-  background-color: #fff;
+  border: 1px solid #444;
+  background-color: #333;
 }
 
 h1 {
   margin: 10px;
   padding: 10px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #444;
 }
 
 label {
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
-  color: #aaa;
+  color: #888;
   margin: 20px;
 }
 
 input[type="text"] {
   padding: 6px;
   font-size: 18px;
+  background-color: #444;
+  color: #eee;
 }
 
 .button {
   background-color: #f58427;
-  color: white;
+  color: #eee;
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
@@ -42,12 +45,17 @@ input[type="text"] {
   font-size: 14px;
   letter-spacing: 1px;
   cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  background-color: #d36100;
 }
 
 .existing-contract ul {
   padding: 10px;
   margin: 20px;
-  background-color: #eee;
+  background-color: #444;
 }
 
 .existing-contract ul > li {
