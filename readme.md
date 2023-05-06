@@ -1,5 +1,7 @@
 # Decentralized Escrow Application
 
+![2023-05-06 23_00_57-Escrow Dapp](https://user-images.githubusercontent.com/4763902/236632171-83eb57f4-65be-4539-9058-bcfb99d56738.png)
+
 This is an Escrow Dapp built with [Hardhat](https://hardhat.org/).
 
 ## Project Layout
